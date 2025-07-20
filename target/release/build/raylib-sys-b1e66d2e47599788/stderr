@@ -1,0 +1,28 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    USE_WAYLAND
+
+
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/rcore.c: In function 'LoadAutomationEventList':
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/rcore.c:2909:13: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+ 2909 |             fgets(buffer, 256, raeFile);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/rcore.c:2926:17: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+ 2926 |                 fgets(buffer, 256, raeFile);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/raudio.c:180:
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/miniaudio.h: In function 'ma_device_stop__alsa':
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/miniaudio.h:28086:9: warning: ignoring return value of 'read', declared with attribute warn_unused_result [-Wunused-result]
+28086 |         read(((struct pollfd*)pDevice->alsa.pPollDescriptorsCapture)[0].fd, &t, sizeof(t));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/miniaudio.h:28107:9: warning: ignoring return value of 'read', declared with attribute warn_unused_result [-Wunused-result]
+28107 |         read(((struct pollfd*)pDevice->alsa.pPollDescriptorsPlayback)[0].fd, &t, sizeof(t));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/raudio.c:282:
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/jar_mod.h: In function 'jar_mod_load_file':
+/home/lipito/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/jar_mod.h:1541:13: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+ 1541 |             fread(modctx->modfile, fsize, 1, f);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

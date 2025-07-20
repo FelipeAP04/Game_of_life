@@ -1,0 +1,7 @@
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/lib/libraylib.a
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/include/raylib.h
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/include/rlgl.h
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/include/raymath.h
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/lib/pkgconfig/raylib.pc
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/lib/cmake/raylib/raylib-config-version.cmake
+/home/lipito/game_of_life/target/release/build/raylib-sys-b1e66d2e47599788/out/lib/cmake/raylib/raylib-config.cmake
