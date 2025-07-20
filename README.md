@@ -2,7 +2,7 @@
 
 A simple implementation of Conway's Game of Life written in Rust using the Raylib library.
 
-![Conway's Game of Life Demo](game_of_life_demo.gif)
+![Conway's Game of Life Demo](./game_of_life_demo.gif)
 
 ## About The Project
 
